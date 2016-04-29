@@ -1,0 +1,257 @@
+[
+  {
+    "FIPSCode": 1,
+    "State": "Alabama",
+    "USPS": "AL"
+  },
+  {
+    "FIPSCode": 2,
+    "State": "Alaska",
+    "USPS": "AK"
+  },
+  {
+    "FIPSCode": 4,
+    "State": "Arizona",
+    "USPS": "AZ"
+  },
+  {
+    "FIPSCode": 5,
+    "State": "Arkansas",
+    "USPS": "AR"
+  },
+  {
+    "FIPSCode": 6,
+    "State": "California",
+    "USPS": "CA"
+  },
+  {
+    "FIPSCode": 8,
+    "State": "Colorado",
+    "USPS": "CO"
+  },
+  {
+    "FIPSCode": 9,
+    "State": "Conneticut",
+    "USPS": "CT"
+  },
+  {
+    "FIPSCode": 10,
+    "State": "Delaware",
+    "USPS": "DE"
+  },
+  {
+    "FIPSCode": 11,
+    "State": "District of Columbia",
+    "USPS": "DC"
+  },
+  {
+    "FIPSCode": 12,
+    "State": "Florida",
+    "USPS": "FL"
+  },
+  {
+    "FIPSCode": 13,
+    "State": "Georgia",
+    "USPS": "GA"
+  },
+  {
+    "FIPSCode": 15,
+    "State": "Hawaii",
+    "USPS": "HI"
+  },
+  {
+    "FIPSCode": 16,
+    "State": "Idaho",
+    "USPS": "ID"
+  },
+  {
+    "FIPSCode": 17,
+    "State": "Illinois",
+    "USPS": "IL"
+  },
+  {
+    "FIPSCode": 18,
+    "State": "Indiana",
+    "USPS": "IN"
+  },
+  {
+    "FIPSCode": 19,
+    "State": "Iowa",
+    "USPS": "IA"
+  },
+  {
+    "FIPSCode": 20,
+    "State": "Kansas",
+    "USPS": "KS"
+  },
+  {
+    "FIPSCode": 21,
+    "State": "Kentucky",
+    "USPS": "KY"
+  },
+  {
+    "FIPSCode": 22,
+    "State": "Louisiana",
+    "USPS": "LA"
+  },
+  {
+    "FIPSCode": 23,
+    "State": "Maine",
+    "USPS": "ME"
+  },
+  {
+    "FIPSCode": 24,
+    "State": "Maryland",
+    "USPS": "MD"
+  },
+  {
+    "FIPSCode": 25,
+    "State": "Massachusetts",
+    "USPS": "MA"
+  },
+  {
+    "FIPSCode": 26,
+    "State": "Michigan",
+    "USPS": "MI"
+  },
+  {
+    "FIPSCode": 27,
+    "State": "Minnesota",
+    "USPS": "MN"
+  },
+  {
+    "FIPSCode": 28,
+    "State": "Mississippi",
+    "USPS": "MS"
+  },
+  {
+    "FIPSCode": 29,
+    "State": "Missouri",
+    "USPS": "MO"
+  },
+  {
+    "FIPSCode": 30,
+    "State": "Montana",
+    "USPS": "MT"
+  },
+  {
+    "FIPSCode": 31,
+    "State": "Nebraska",
+    "USPS": "NE"
+  },
+  {
+    "FIPSCode": 32,
+    "State": "Nevada",
+    "USPS": "NV"
+  },
+  {
+    "FIPSCode": 33,
+    "State": "New Hampshire",
+    "USPS": "NH"
+  },
+  {
+    "FIPSCode": 34,
+    "State": "New Jersey",
+    "USPS": "NJ"
+  },
+  {
+    "FIPSCode": 35,
+    "State": "New Mexico",
+    "USPS": "NM"
+  },
+  {
+    "FIPSCode": 36,
+    "State": "New York",
+    "USPS": "NY"
+  },
+  {
+    "FIPSCode": 37,
+    "State": "North Carolina",
+    "USPS": "NC"
+  },
+  {
+    "FIPSCode": 38,
+    "State": "North Dakota",
+    "USPS": "ND"
+  },
+  {
+    "FIPSCode": 39,
+    "State": "Ohio",
+    "USPS": "OH"
+  },
+  {
+    "FIPSCode": 40,
+    "State": "Oklahoma",
+    "USPS": "OK"
+  },
+  {
+    "FIPSCode": 41,
+    "State": "Oregon",
+    "USPS": "OR"
+  },
+  {
+    "FIPSCode": 42,
+    "State": "Pennsylvania",
+    "USPS": "PA"
+  },
+  {
+    "FIPSCode": 44,
+    "State": "Rhode Island",
+    "USPS": "RI"
+  },
+  {
+    "FIPSCode": 45,
+    "State": "South Carolina",
+    "USPS": "SC"
+  },
+  {
+    "FIPSCode": 46,
+    "State": "South Dakota",
+    "USPS": "SD"
+  },
+  {
+    "FIPSCode": 47,
+    "State": "Tennessee",
+    "USPS": "TN"
+  },
+  {
+    "FIPSCode": 48,
+    "State": "Texas",
+    "USPS": "TX"
+  },
+  {
+    "FIPSCode": 49,
+    "State": "Utah",
+    "USPS": "UT"
+  },
+  {
+    "FIPSCode": 50,
+    "State": "Vermont",
+    "USPS": "VT"
+  },
+  {
+    "FIPSCode": 51,
+    "State": "Virginia",
+    "USPS": "VA"
+  },
+  {
+    "FIPSCode": 53,
+    "State": "Washington",
+    "USPS": "WA"
+  },
+  {
+    "FIPSCode": 54,
+    "State": "West Virginia",
+    "USPS": "WV"
+  },
+  {
+    "FIPSCode": 55,
+    "State": "Wisconsin",
+    "USPS": "WI"
+  },
+  {
+    "FIPSCode": 56,
+    "State": "Wyoming",
+    "USPS": "WY"
+  }
+]

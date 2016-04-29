@@ -1,0 +1,222 @@
+[
+  {
+    "SCTG": 1,
+    "Description": "Live Animals",
+    "": 0
+  },
+  {
+    "SCTG": 2,
+    "Description": "Cereal Grains",
+    "": 0
+  },
+  {
+    "SCTG": 3,
+    "Description": "Agricultural Products",
+    "": 0
+  },
+  {
+    "SCTG": 4,
+    "Description": "Feed, Eggs, Honey",
+    "": 0
+  },
+  {
+    "SCTG": 5,
+    "Description": "Meat, Fish, Fowl",
+    "": 0
+  },
+  {
+    "SCTG": 6,
+    "Description": "Bakery Products",
+    "": 0
+  },
+  {
+    "SCTG": 7,
+    "Description": "Fats and Oils",
+    "": 0
+  },
+  {
+    "SCTG": 8,
+    "Description": "Alcohol",
+    "": 0
+  },
+  {
+    "SCTG": 9,
+    "Description": "Tobacco Products",
+    "": 0
+  },
+  {
+    "SCTG": 10,
+    "Description": "Building Stone",
+    "": 0
+  },
+  {
+    "SCTG": 11,
+    "Description": "Natural Sands",
+    "": 0
+  },
+  {
+    "SCTG": 12,
+    "Description": "Gravel & Crushed Stone",
+    "": 0
+  },
+  {
+    "SCTG": 13,
+    "Description": "Non-Metal Minerals",
+    "": 0
+  },
+  {
+    "SCTG": 14,
+    "Description": "Metallic Ores",
+    "": 0
+  },
+  {
+    "SCTG": 15,
+    "Description": "Coal",
+    "": 0
+  },
+  {
+    "SCTG": 16,
+    "Description": "Crude Petroleum",
+    "": 0
+  },
+  {
+    "SCTG": 17,
+    "Description": "Gasoline & Ethanol",
+    "": 0
+  },
+  {
+    "SCTG": 18,
+    "Description": "Fuel Oils",
+    "": 0
+  },
+  {
+    "SCTG": 19,
+    "Description": "Coal/Petrol Products",
+    "": 0
+  },
+  {
+    "SCTG": 20,
+    "Description": "Basic Chemicals",
+    "": 0
+  },
+  {
+    "SCTG": 21,
+    "Description": "Pharmaceuticals",
+    "": 0
+  },
+  {
+    "SCTG": 22,
+    "Description": "Fertilizers",
+    "": 0
+  },
+  {
+    "SCTG": 23,
+    "Description": "Other Chemical Products",
+    "": 0
+  },
+  {
+    "SCTG": 24,
+    "Description": "Plastics and Rubber",
+    "": 0
+  },
+  {
+    "SCTG": 25,
+    "Description": "Raw Wood",
+    "": 0
+  },
+  {
+    "SCTG": 26,
+    "Description": "Wood Products",
+    "": 0
+  },
+  {
+    "SCTG": 27,
+    "Description": "Pulp & Newsprint",
+    "": 0
+  },
+  {
+    "SCTG": 28,
+    "Description": "Paper/Paperboard",
+    "": 0
+  },
+  {
+    "SCTG": 29,
+    "Description": "Printed Products",
+    "": 0
+  },
+  {
+    "SCTG": 30,
+    "Description": "Textiles and Leather",
+    "": 0
+  },
+  {
+    "SCTG": 31,
+    "Description": "Non-Metal Mineral Prod.",
+    "": 0
+  },
+  {
+    "SCTG": 32,
+    "Description": "Raw/Formed Base Metal",
+    "": 0
+  },
+  {
+    "SCTG": 33,
+    "Description": "Articles of Base Metal",
+    "": 0
+  },
+  {
+    "SCTG": 34,
+    "Description": "Machinery",
+    "": 0
+  },
+  {
+    "SCTG": 35,
+    "Description": "Electronic/Office Equip.",
+    "": 0
+  },
+  {
+    "SCTG": 36,
+    "Description": "Motorized/Other Vehicles",
+    "": 0
+  },
+  {
+    "SCTG": 37,
+    "Description": "Transportation Equip.",
+    "": 0
+  },
+  {
+    "SCTG": 38,
+    "Description": "Precision Instruments",
+    "": 0
+  },
+  {
+    "SCTG": 39,
+    "Description": "Furniture",
+    "": 0
+  },
+  {
+    "SCTG": 40,
+    "Description": "Miscellaneous Products",
+    "": 0
+  },
+  {
+    "SCTG": 41,
+    "Description": "Waste and Scrap",
+    "": 0
+  },
+  {
+    "SCTG": 43,
+    "Description": "Mixed Freight",
+    "": 0
+  },
+  {
+    "SCTG": 99,
+    "Description": "Missing Code",
+    "": 0
+  },
+  {
+    "SCTG": 0,
+    "Description": "SCTG suppressed",
+    "": 0
+  }
+]
