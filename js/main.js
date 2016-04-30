@@ -251,14 +251,14 @@ $(function() {
 			    		});
 			    	}
 
-			    	//The squares on the map
+			    	//Binds heatmap squares to svg
 			        var squares = svg1.selectAll("rect")
 			            .data(chartData, function(d) {return d.y+':'+d.x;});
-
+			        //adds naive tooltip
 			        squares.append("title");
-
+			        //Entering squares
 			        squares.enter().append("rect")
-
+			        //Entering and upating squares
 			        squares.attr("x", function(d) { return (xRankedLabels.indexOf(d.x) - 1) * gridSize + 155; })
 			            .attr("y", function(d) { return (yRankedLabels.indexOf(d.y) - 1) * gridSize + 20; })
 			            .attr("rx", 4)
@@ -266,7 +266,7 @@ $(function() {
 			            .attr("width", gridSize)
 			            .attr("height", gridSize)
 			            .style("fill", colors[0])
-			            .on("click", function(d){
+			            .on("click", function(d){//When clicked filter chart data depending on axis selected
 			            	if (filterAxis == "yAxis") {
 			            		filter = d.y;
 			            		heatmapChart(yRankedLabels);
@@ -275,42 +275,41 @@ $(function() {
 			            		heatmapChart(xRankedLabels);
 			            	}
 			            });
-
+			        
 			        squares.transition().duration(1500).style("fill", function(d) { return colorScale(d.value); });
-
+			        //text for naive tooltip
 			        squares.select("title").text(function(d) { return d.value; });
-			          
+			        //exitinng squares 
 			        squares.exit().remove();
 
-			        //Initializes xlabels
-				    var xLabelling = svg1.selectAll(".xLabel").data(xRankedLabels)
-				        
-				    xLabelling.enter().append("text").attr("class", "xLabel");
-
-				    xLabelling.text(function(d) { return d; })
+			        //Bind x labels to svg
+				    var xLabelling = svg1.selectAll(".xLabel").data(xRankedLabels, function(d){return d})
+				    //Entering x labels 
+				    xLabelling.enter().append("text").attr("class", "xLabel")
+				    	  .attr('x', 0)
+				    	  .text(function(d) { return d; })
 				          .style("text-anchor", "middle")
-				          .style("font-size", "10px")
+				          .style("font-size", "10px")				        
 				          .attr("transform", "translate(" + gridSize /2 + ", -6)");
 
-				    //Transitions for labels don't work :0 plz send help
+				    //Entering and updating x labels transition
 				    xLabelling.transition().duration(1500)
-				    	.attr("x", function(d, i) { return (i * gridSize) + 137; })
+				    	.attr("x", function(d, i) {return (i * gridSize) + 137; })
 				        .attr("y", 0)
 
-				    //Initializes ylabels
-			        var yLabelling = svg1.selectAll(".yLabel").data(yRankedLabels);
+				    //Bind Y labels to svg
+			        var yLabelling = svg1.selectAll(".yLabel").data(yRankedLabels, function(d){return d;});
 		          	
-		          	yLabelling.enter().append("text").attr("class", "yLabel");
-
+		          	yLabelling.enter().append("text").attr("class", "yLabel")
+		          		.attr('y', 0);
+		          	//Centers labels on respective rows
 		            yLabelling.text(function (d) { return d; })
 			            .style("text-anchor", "end")
 			            .attr("transform", "translate(-6," + gridSize / 1.5 + ")");
-
-			        yLabelling.transition()
+			        //Enters and Updates y axis labels to position
+			        yLabelling.transition().duration(1500)
 			        	.attr("x", 135)
-			            .attr("y", function (d, i) { return i * gridSize; });
-
-			        yLabelling.exit().transition().remove();
+			            .attr("y", function (d, i) {return i * gridSize; });
 			    };  
 			    //First generates chart 
 			    heatmapChart(stateLabels);
